@@ -1,0 +1,4 @@
+services:
+    MenAtWork\MatomoTrackingTagBundle\Migration\TrackingTemplateMigration:
+        autoconfigure: true
+        arguments: ['@database_connection']
